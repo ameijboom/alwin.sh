@@ -32,4 +32,4 @@ COPY --chown=deno:deno --from=build /app/public /app/public
 
 EXPOSE 3000
 
-CMD ["run", "--allow-net", "--allow-env", "--allow-read", "--allow-sys", "--unstable-detect-cjs", "--unstable-node-globals", "--unstable-bare-node-builtins", "--unstable-sloppy-imports", "server.js"]
+CMD ["run", "--allow-net", "--allow-env", "--allow-read", "--allow-sys", "--unstable-detect-cjs", "--unstable-node-globals", "--unstable-bare-node-builtins", "--unstable-sloppy-imports", "--allow-write", "server.js"]
