@@ -1,5 +1,4 @@
 @import 'tailwindcss';
-@import 'material-symbols';
 
 @plugin 'daisyui' {
 	themes: nord --default, dim --prefersdark;

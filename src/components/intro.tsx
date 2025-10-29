@@ -14,7 +14,7 @@ export default function Intro() {
 
 				<div className="">
 					<h1 className="text-5xl font-bold">Alwin Meijboom</h1>
-					<p className="py-6">Developer & DevOps Engineer from Zwolle</p>
+					<p className="py-6">DevOps Engineer & Cloud-Native Developer from Zwolle;</p>
 				</div>
 			</div>
 		</div>
