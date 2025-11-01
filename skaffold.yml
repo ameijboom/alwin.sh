@@ -1,0 +1,10 @@
+apiVersion: skaffold/v1beta15
+kind: Config
+metadata:
+    name: alwin.sh
+build:
+  artifacts:
+  - image: ghcr.io/ameijboom/alwin.sh
+
+  local:
+    useBuildkit: true

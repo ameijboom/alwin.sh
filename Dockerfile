@@ -21,9 +21,10 @@ COPY eslint.config.mjs next.config.ts package.json postcss.config.mjs tsconfig.j
 COPY --from=deps /app/node_modules /app/node_modules
 RUN pnpm run build
 
-FROM denoland/deno:2.5.4 AS release
+FROM denoland/deno:2.5.6 AS release
 USER deno
 
+LABEL org.opencontainers.image.source=https://github.com/ameijboom/alwin.sh
 WORKDIR /app
 
 COPY --chown=deno:deno --from=build /app/.next/standalone /app

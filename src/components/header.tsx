@@ -1,4 +1,4 @@
-import { Github, Linkedin, MessageCircle, Twitter } from "lucide-react";
+import { Github, Linkedin, MessageCircle } from "lucide-react";
 
 export default function Header() {
     return (
@@ -7,7 +7,6 @@ export default function Header() {
                 <a href="https://github.com/ameijboom/alwin.sh" target="_blank" className="btn btn-ghost"><Github /></a>
             </div>
             <div className="flex-none">
-                <a href="" className="btn btn-ghost"><Twitter /></a>
                 <a href="https://nl.linkedin.com/in/alwin-meijboom-94908b154" target="_blank" className="btn btn-ghost"><Linkedin /></a>
                 <a href="https://matrix.to/#/@alwin:chat.alwin.sh" target="_blank" className="btn btn-ghost"><MessageCircle /></a>
             </div>
